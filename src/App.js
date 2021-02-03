@@ -3,9 +3,11 @@ import React, { useEffect } from 'react'
 function App() {
   useEffect(() => {
     window.addEventListener('message', event => {
+      console.log('post message event listener attached...')
       // IMPORTANT: check the origin of the data! 
       if (
         event.origin.startsWith('http://localhost:3000') ||
+        event.origin.startsWith('https://focus.us.launchpad6.com') ||
         event.origin.startsWith('https://app.staging.secondstg.com') ||
         event.origin.startsWith('https://seek21.live')
       ) {
