@@ -4,7 +4,11 @@ function App() {
   useEffect(() => {
     window.addEventListener('message', event => {
       // IMPORTANT: check the origin of the data! 
-      if (event.origin.startsWith('https://app.staging.secondstg.com')) {
+      if (
+        event.origin.startsWith('http://localhost:3000') ||
+        event.origin.startsWith('https://app.staging.secondstg.com') ||
+        event.origin.startsWith('https://seek21.live')
+      ) {
         // The data was sent from your site.
         // Data sent with postMessage is stored in event.data:
         console.log(event.data);
