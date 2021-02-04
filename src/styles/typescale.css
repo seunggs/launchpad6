@@ -1,0 +1,21 @@
+.f-headline { font-size: 5.0rem; }
+.f-subheadline { font-size: 4.5rem; }
+
+.f1 { font-size: 3.8rem !important; }
+.f2 { font-size: 3.2rem !important; }
+.f3 { font-size: 2.4rem !important; }
+.f4 { font-size: 1.8rem !important; }
+.f5 { font-size: 1.6rem !important; }
+.f6 { font-size: 1.4rem !important; }
+.f7 { font-size: 1.2rem !important; }
+
+.lh-subheadline { line-height: 5.5rem; }
+.lh-headline { line-height: 5.5rem; }
+
+.lh-1 { line-height: 1; }
+.lh-2 { line-height: 1.4; }
+.lh-3 { line-height: 1.7; }
+.lh-4 { line-height: 1.7; }
+.lh-5 { line-height: 1.7; }
+.lh-6 { line-height: 1.7; }
+.lh-7 { line-height: 1.7; }
