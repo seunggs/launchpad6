@@ -51,15 +51,16 @@ function App({ isMobile }) {
       </div>
       <H className="mt6 b">Thank You to Our Awaken Partners</H>
       <div className="row middle-xs">
-          {logos.map((logo, i) => {
-            const { src, alt } = logo
-            return (
-              <div className="col-xs-12 col-md-3" key={i}>
-                <img src={src} alt={alt} />
-              </div>
-            )
-          })}
-        </div>
+        {logos.map((logo, i) => {
+          const { src, alt } = logo
+          return (
+            <div className="col-xs-12 col-md-3" key={i}>
+              <img src={src} alt={alt} />
+            </div>
+          )
+        })}
+      </div>
+      <button className="mt3 pa3" style={{ backgroundColor: "rgb(189, 71, 43)", border: "none", fontSize: "20px", fontFamily: "baskville"}}><a href="https://seek21.live/" style={{ color: "white", textDecoration: "none" }}>Back to Seek</a></button>
     </div>
   )
 }
