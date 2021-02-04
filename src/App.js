@@ -21,7 +21,7 @@ function App({ isMobile }) {
       <H className="mt5 ph1 b">“Even our soul itself becomes more beautiful when beauty meets us, takes holds of us, and fires us with enthusiasm.”</H>
       <H className="ph1 b">– Dietrich von Hildebrand</H>
       <P className="mt5">What Is Awaken:</P>
-      <P className={`${isMobile ? "ph1" : "ph7"}`}>SEEK21 Participants from across the nation have answered the call to create in the chaos of 2020. With their music, art, and writing, these finalists of the Awaken 3.0 Competition have shared their gifts to give SEEK21 attendees the chance to see beauty as a bridge to the Divine, a window to encounter the Person of Christ. On behalf of the Beauty Initiative within FOCUS, Papercastle Records, and Love Good, we invite you to awaken to the mystery of Christ through Beauty.</P>
+      <P className={`${isMobile ? "ph1" : "ph7"}`}>SEEK21 Participants from across the nation have answered the call to create in the chaos of 2020. With their music, art, and writing, these finalists of the Awaken 3.0 Competition have shared their gifts to give SEEK21 attendees the chance to see beauty as a bridge to the Divine, a window to encounter the Person of Christ. On behalf of the <a href="https://seek21.live/categories/sponsor/learn-more-about-focus/a-beauty-initiative-within-focus-1" target="_blank">Beauty Initiative within FOCUS</a>, <a href="https://seek21.live/categories/sponsor/faith-formation/the-vigil-project-papercastle-records" target="_blank">Papercastle Records</a>, and Love Good, we invite you to awaken to the mystery of Christ through Beauty.</P>
       <P className="mt5">How You Can Participate:</P>
       <P className={`${isMobile ? "ph1" : "ph7"}`}>Winners will be selected from each category by a panel of judges to win mentorships and publishing opportunities in their respective medium. Vote for your favorite artist in each medium by tapping the heart button! The winner will be featured as the “fan favorite” at the end of SEEK21.</P>
       <div className="flex justify-center mt5">
@@ -45,7 +45,7 @@ function App({ isMobile }) {
       <div className={`w-100 flex justify-center items-center colx-xs`} style={{ backgroundColor: "rgb(18, 81, 111)", height: isMobile ? "280px" : "150px" }}>
         <img src="https://second-stage.s3.amazonaws.com/clients/focus/2021/awaken/Awaken+3.0+book+.png" alt="book" style={{ width: "200px", height: isMobile ? "280px" : "150px" }} />
         <div>
-          <P className="ph2" style={{ color: "white" }}>Sign up here to be notified when the printed book of Awaken content will be available for purchase!</P>
+          <P className={`${isMobile ? "ph2" : "ph4"}`} style={{ color: "white" }}>Sign up here to be notified when the printed book of Awaken content will be available for purchase!</P>
           <button className="mt3 pa3" style={{ backgroundColor: "white", border: "none", fontSize: "20px", fontFamily: "baskville" }}><a href="https://app.smartsheet.com/b/form/65a898de490f42de89d620d78609b43d" target="_blank" style={{ color: "black", textDecoration: "none" }}>GET THE AWAKEN BOOK</a></button>
         </div>
       </div>
