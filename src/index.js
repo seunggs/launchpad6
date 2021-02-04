@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'tachyons'
+import './styles/flexboxgrid.css'
+import './styles/typescale.css'
+import './styles/fonts.css'
 
 ReactDOM.render(
   <React.StrictMode>
