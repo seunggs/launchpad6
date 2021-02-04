@@ -5,3 +5,8 @@ export const StyledDiv = styled.div`
     font-family: ${div.fontFamily};
   `}
 `
+export const StyledHeadline = styled(StyledDiv)`
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+`
