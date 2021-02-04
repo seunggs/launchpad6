@@ -16,7 +16,7 @@ function App({ isMobile }) {
   return (
     <div className="flex flex-column justify-center tc mt6">
       <div className="flex justify-center">
-      <img src="https://second-stage.s3.amazonaws.com/clients/focus/2021/awaken/Logo_Awaken+Logo.png" alt="awaken-logo" style={{ maxWidth: "300px", maxHeight: "200px" }}/>
+      <img src="https://second-stage.s3.amazonaws.com/clients/focus/2021/awaken/Logo_Awaken+Logo.png" alt="awaken-logo" style={{ maxWidth: isMobile ? "300px" : "640px", maxHeight: isMobile ? "200px" : "360px" }}/>
       </div>
       <H className="mt5 ph1 b">“Even our soul itself becomes more beautiful when beauty meets us, takes holds of us, and fires us with enthusiasm.”</H>
       <H className="ph1 b">– Dietrich von Hildebrand</H>
