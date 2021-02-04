@@ -11,6 +11,7 @@ function App({ isMobile }) {
     { src: 'https://second-stage.s3.amazonaws.com/clients/focus/2021/awaken/full+logo+-+black+(1).png', alt: 'black-logo' },
     { src: 'https://second-stage.s3.amazonaws.com/clients/focus/2021/awaken/logo.jpg', alt: 'logo' },
   ]
+  console.log('App loaded')
 
   return (
     <div className="flex flex-column justify-center tc mt6">
